@@ -1,0 +1,42 @@
+.navbar {
+  max-width: 960px;
+  margin: 0 auto;
+  max-height: 100%;
+
+  .main-logo {
+    width: 144px;
+    height: 100%;
+    padding: 8px 0;
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .menu-list {
+    padding: 8px;
+    list-style: none;
+    margin-bottom: 0!important;
+  }
+
+  .menu-item {
+    width: 160px;
+    height: 100%;
+
+    img {
+      margin-right: 8px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .nav-icon {
+    height: 100%;
+    cursor: pointer;
+  }
+
+
+}
