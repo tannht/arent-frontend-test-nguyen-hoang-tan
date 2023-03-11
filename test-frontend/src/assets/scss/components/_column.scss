@@ -1,0 +1,62 @@
+.my-recommended-card {
+  padding: 24px 8px;
+
+  .recommended-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.11px;
+    color: $primary-300;
+  }
+
+  .recommended-link a {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+
+.column-card {
+  max-width: 100%;
+
+  &__image {
+    position: relative;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .title {
+      display: flex;
+      align-items: center;
+      padding: 7px;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      margin: 0;
+      height: 32px;
+      background: $primary-300;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0.15px;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  &__tags {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    color: $primary-400;
+  }
+}

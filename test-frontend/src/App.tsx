@@ -2,9 +2,9 @@ import React from 'react';
 import './assets/scss/global.scss';
 import Layout from "./components/layouts/Layout";
 
-function App( ) {
+function App() {
     return (
-        <Layout />
+        <Layout/>
     );
 }
 

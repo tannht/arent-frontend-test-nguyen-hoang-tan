@@ -35,3 +35,7 @@ $primary-linear-gradient: linear-gradient(90deg, $primary-300 0%, $primary-400 1
 .bg-primary-linear-gradient {
   background: $primary-linear-gradient;
 }
+
+.bg-dark-600 {
+  background: $dark-600;
+}

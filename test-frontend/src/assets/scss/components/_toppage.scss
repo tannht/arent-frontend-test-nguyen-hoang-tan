@@ -1,10 +1,30 @@
 .top-content {
-  height: 316px;
+  height: 500px;
 }
+
 .achievement-rate {
-    height: 100%;
+  height: 100%;
   background-image: url("../../../assets/images/d01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.percentage-graph {
+  background: $dark-600;
+  padding: 15px;
+}
+
+.navigate-items {
+  .navigate-item {
+    width: 134px;
+    height: 116px;
+    background-image: url("../../../assets/icons/navigate-background.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    &__text {
+
+      color: white;
+    }
+  }
 }

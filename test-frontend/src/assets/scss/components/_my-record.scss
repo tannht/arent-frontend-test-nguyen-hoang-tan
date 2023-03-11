@@ -1,0 +1,59 @@
+.top-record {
+  padding: 56px 0;
+}
+.my-record-card {
+  position: relative;
+  max-width: 100%;
+  padding: 20px;
+
+  .image-group {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .text-group {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+
+    .image-text {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.125px;
+      color: $primary-300;
+    }
+  }
+
+  .image-group {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.item-graphs {
+  button {
+    border-radius: 11px ;
+    width: 56px;
+    height: 24px;
+  }
+}

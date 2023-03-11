@@ -1,6 +1,6 @@
-import TopPage from "../components/top-page/TopPage";
-import MyRecord from "../components/my-record/MyRecord";
-import Column from "../components/column/Column";
+import TopPage from "../pages/top-page/TopPage";
+import MyRecord from "../pages/my-record/MyRecord";
+import Column from "../pages/column/Column";
 
 const routers = [
     {
